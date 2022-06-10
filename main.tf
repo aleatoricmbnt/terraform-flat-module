@@ -4,3 +4,8 @@ resource "random_pet" "resource" {
     number = var.user_number
   }
 }
+
+variable "user_number" {
+  type = number
+  description = "pet keeper 1/2"
+}

@@ -1,4 +1,1 @@
-variable "user_number" {
-    type = number
-    description = "pet keeper"
-}
+user_number = 3
