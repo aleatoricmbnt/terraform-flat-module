@@ -1,1 +1,1 @@
-root-modules = [!**]
+root-modules = ["**"]
