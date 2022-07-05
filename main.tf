@@ -1,5 +1,5 @@
 resource "random_pet" "resource" {
-  count = 2
+  count = 3
   keepers = {
     timestamp = timestamp()
     number = var.user_number
