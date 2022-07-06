@@ -1,5 +1,26 @@
-| sdfsdfsdf    	| fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff 	| sdfsdfsdddddfffffff 	| sdfsdffffffffffff 	| sdfsdfsdf 	|
-|--------------	|-------------------------------------------------------------	|---------------------	|-------------------	|-----------	|
-| 113423423324 	| sdf                                                         	|                     	|                   	| ## main.tfConsists of the following code```hclresource "random_pet" "pet" {  keepers = {    timestamp = timestamp()    pet_keeper = var.pet_keeper  }}output "pet_name" {  value = random_pet.pet.id}variable "pet_keeper" {  default = "string"}```          	|
-|              	|                                                             	|                     	|                   	|           	|
-|              	|                                                             	|                     	|                   	|           	|
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       | dgfdddddddddddddddddddddddgggggggggggggggggggggggggggggggggggggggggggggggggsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee |
+| :-------- | :------- | :-------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |     dsfsdfsfffffffffffffffffff                                                                                                                 |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
