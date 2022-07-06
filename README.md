@@ -17,10 +17,11 @@
   GET /api/items/${id}
 ```
 
-| Parameter | Type     | Description                       | dgfdddddddddddddddddddddddgggggggggggggggggggggggggggggggggggggggggggggggggsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee |
-| :-------- | :------- | :-------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |     dsfsdfsfffffffffffffffffff                                                                                                                 |
+| Parameter | Type     | Description                       | dgfdddddddddddddddddddddddgggggggggggggggggggggggggggggggggggggggggggggggggsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd |
+| :-------- | :------- | :-------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |     dsfsdfsfffffffffffffffffff                                                                                                                                                                                                                                   |
 
 #### add(num1, num2)
 
 Takes two numbers and returns the sum.
+
