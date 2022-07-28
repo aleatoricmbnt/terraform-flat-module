@@ -10,3 +10,7 @@ variable "user_number" {
   type = number
   description = "pet keeper 1/2"
 }
+
+resource "random_pet" "name" {}
+
+resource "random_pet" "name" {}
