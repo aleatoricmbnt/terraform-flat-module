@@ -13,4 +13,4 @@ variable "user_number" {
 
 resource "random_pet" "name" {}
 
-resource "random_pet" "name" {}
+resource "random_pet" "surname" {}
