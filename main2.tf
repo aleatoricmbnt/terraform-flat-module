@@ -1,1 +1,3 @@
-resource "null_resource" "name" {}
+resource "random_pet" "name" {}
+
+resource "random_pet" "name" {}
