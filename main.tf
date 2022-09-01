@@ -1,3 +1,4 @@
+#comment
 resource "random_pet" "resource" {
   count = 2
   keepers = {
