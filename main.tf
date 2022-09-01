@@ -8,9 +8,5 @@ resource "random_pet" "resource" {
 
 variable "user_number" {
   type = number
-  description = "pet keeper 1/2/3"
+  description = "keeper var 1/2"
 }
-
-resource "random_pet" "name" {}
-
-resource "random_pet" "surname" {}
