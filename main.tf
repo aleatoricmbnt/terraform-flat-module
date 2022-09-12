@@ -11,3 +11,7 @@ variable "user_number" {
   type = number
   description = "keeper var 1/2"
 }
+
+variable "var-var-var" {
+  default = "ya masha"
+}
