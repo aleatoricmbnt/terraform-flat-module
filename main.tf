@@ -13,5 +13,5 @@ variable "user_number" {
 }
 
 variable "var-var-var" {
-  default = "ya masha"
+  default = "ya masha 123"
 }
