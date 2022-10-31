@@ -8,7 +8,7 @@ resource "random_pet" "resource" {
 }
 
 variable "var-var-var" {
-  sensitive = true
+  sensitive = false
   default = "string"
 }
 
