@@ -6,8 +6,14 @@ resource "random_pet" "resource" {
     string = var.var-var-var
   }
   length = var.len
+  separator = var.sep
 }
 
+
+variable "sep" {
+  default = "-----"
+  sensitive = true
+}
 
 
 variable "var-var-var" {
