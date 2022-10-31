@@ -25,5 +25,4 @@ variable "len" {
 
 variable "listssss" {
   type = list
-  sensitive = true
 }
