@@ -1,8 +1,8 @@
 #comment
 resource "random_pet" "resource" {
-  count = 1
+  count = 2
   keepers = {
-    string2 = var.var-var
+    # string2 = var.var-var
     string = var.var-var-var
   }
   length = var.len
@@ -15,10 +15,10 @@ variable "var-var-var" {
   default = "string"
 }
 
-variable "var-var" {
-  sensitive = false
-  default = "string"
-}
+# variable "var-var" {
+#   sensitive = false
+#   default = "string"
+# }
 
 
 variable "len" {
