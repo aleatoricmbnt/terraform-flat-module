@@ -1,6 +1,6 @@
 #comment
 resource "random_pet" "resource" {
-  count = 2
+  count = var.quantity
   keepers = {
     timestamp = timestamp()
     number = var.user_number
@@ -15,4 +15,9 @@ variable "user_number" {
 
 variable "var-var-var" {
   default = "ya masha 123"
+}
+
+variable "quantity" {
+  sensitive = true
+  default = 1234
 }
