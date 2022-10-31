@@ -22,3 +22,8 @@ variable "len" {
   sensitive = true
   default = 1234
 }
+
+variable "listssss" {
+  type = list
+  sensitive = true
+}
