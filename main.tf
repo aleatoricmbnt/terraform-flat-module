@@ -3,6 +3,7 @@ resource "random_pet" "resource" {
   count = 1
   keepers = {
     # string2 = var.var-var
+    var = var.var
     string = var.var-var-var
   }
   length = var.len
@@ -19,6 +20,9 @@ variable "sep" {
 variable "var-var-var" {
   sensitive = true
   default = "string"
+}
+
+variable "var" {
 }
 
 # variable "var-var" {
