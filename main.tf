@@ -1,11 +1,12 @@
 #comment
 resource "random_pet" "resource" {
-  count = var.quantity
+  count = 1
   keepers = {
     timestamp = timestamp()
     number = var.user_number
     string = var.var-var-var
   }
+  length = var.len
 }
 
 variable "user_number" {
@@ -17,7 +18,7 @@ variable "var-var-var" {
   default = "ya masha 123"
 }
 
-variable "quantity" {
+variable "len" {
   sensitive = true
   default = 1234
 }
