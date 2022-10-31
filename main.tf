@@ -10,7 +10,7 @@ resource "random_pet" "resource" {
 
 variable "user_number" {
   type = number
-  description = "keeper var 1/2"
+  description = "keeper var 1/22"
 }
 
 variable "var-var-var" {
