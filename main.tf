@@ -8,4 +8,5 @@ resource "null_resource" "name" {
 
 variable "user_number" {
   sensitive = true
+  default = "1"
 }
