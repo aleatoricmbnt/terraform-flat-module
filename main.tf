@@ -7,5 +7,5 @@ resource "null_resource" "name" {
 }
 
 variable "user_number" {
-  sensitive = false
+  sensitive = true
 }
