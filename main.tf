@@ -1,5 +1,5 @@
-resource "null_resource" "timestamp" {
-  triggers = {
+resource "random_id" "timestamp" {
+  keepers = {
     trigger = timestamp()
   }
 }
