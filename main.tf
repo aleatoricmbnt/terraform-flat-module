@@ -1,15 +1,5 @@
-#comment
-provider "null" {
-  version = "3.0.0"
-}
-
-resource "null_resource" "name" {
+resource "null_resource" "timestamp" {
   triggers = {
-    trigger = var.user_number
+    trigger = timestamp()
   }
-}
-
-variable "user_number" {
-  sensitive = true
-  default = "2"
 }
