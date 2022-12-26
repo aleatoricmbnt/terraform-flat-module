@@ -1,4 +1,0 @@
-*.tf
-.git
-*.git
-!main.tf
