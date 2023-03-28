@@ -2,5 +2,5 @@ resource "random_id" "timestamp" {
   keepers = {
     trigger = timestamp()
   }
-  byte_length = 8
+  byte_length = 12
 }
