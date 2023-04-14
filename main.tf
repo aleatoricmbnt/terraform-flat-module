@@ -1,8 +1,4 @@
-resource "random_id" "timestamp" {
-  keepers = {
-    trigger = timestamp()
-  }
-  byte_length = 6
+module "referencing" {
+  source = "git::https://github.com/aleatoricmbnt/terraform-flat-module.git"
 }
 
-#commit_3
