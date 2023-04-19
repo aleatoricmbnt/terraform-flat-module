@@ -1,4 +1,4 @@
 module "referencing" {
-  source = "./empty"
+  source = "./pet_tbd"
 }
 
