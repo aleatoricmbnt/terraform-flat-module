@@ -20,5 +20,5 @@ output "random" {
 }
 
 output "value" {
-  value = data.null_data_source.some_pairs["single-key"]
+  value = data.null_data_source.some_pairs.single-key
 }
