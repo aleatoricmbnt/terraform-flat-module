@@ -11,7 +11,7 @@ data "null_data_source" "some_pairs" {
   }
 }
 
-variable "rigger" {
+variable "trigger" {
   
 }
 
