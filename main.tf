@@ -6,6 +6,14 @@ terraform {
   }
 }
 
+resource "null_resource" "counted_resource" {
+  count = 100
+}
+
+module "local" {
+  source = "./temp"
+}
+
 resource "random_pet" "timestamp_keeper" {
   keepers = {
     time = timestamp()
