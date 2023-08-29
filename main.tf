@@ -29,11 +29,6 @@ variable "question" {
   description = "Do you want 'null_resource.optional_recreate' to be applied again during re-run?"
 }
 
-
-variable "null_res_switcher" {
-  
-}
-
 resource "scalr_environment" "env_for_update" {
   name = "test-env"
 }
