@@ -46,8 +46,15 @@ variable "question" {
 }
 
 resource "scalr_environment" "env_for_update" {
-  name = "test-env2"
+  count = var.create_resource ? 1 : 0
 }
+
+variable "env_question" {
+  type        = bool
+  default     = false
+  description = "Do you want to create env? (bool value)"
+}
+
 
 resource "null_resource" "long_attribute_values" {
   triggers = {
