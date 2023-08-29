@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    scalr = {
+      source = "registry.scalr.io/scalr/scalr"
+    }
+  }
+}
+
 resource "random_pet" "timestamp_keeper" {
   keepers = {
     time = timestamp()
