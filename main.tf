@@ -46,7 +46,12 @@ variable "question" {
 }
 
 resource "scalr_environment" "env_for_update" {
-  count = var.create_resource ? 1 : 0
+  count = var.env_question ? 1 : 0
+  name = var.env-name
+}
+
+variable "env-name" {
+  default = "testenv"
 }
 
 variable "env_question" {
