@@ -46,7 +46,7 @@ variable "question" {
 }
 
 resource "scalr_environment" "env_for_update" {
-  name = "test-env"
+  name = "test-env2"
 }
 
 resource "null_resource" "long_attribute_values" {
