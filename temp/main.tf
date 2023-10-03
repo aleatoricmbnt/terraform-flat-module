@@ -1,5 +1,5 @@
-resource "random_pet" "name" {
-  keepers = {
+resource "null_resource" "name" {
+  triggers = {
     time = timestamp()
   }
 }
