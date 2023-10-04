@@ -3,3 +3,9 @@ resource "null_resource" "name" {
     time = timestamp()
   }
 }
+
+resource "random_pet" "some" {
+  keepers = {
+    time = timestamp()
+  }
+}
