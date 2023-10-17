@@ -6,7 +6,7 @@ Nested module.
 
 ## Configuration
 
-Top-level `main.tf` has the following code:
+Nested `main.tf` has the following code:
 ```
 resource "null_resource" "name" {
   triggers = {
