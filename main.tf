@@ -18,14 +18,8 @@ resource "random_string" "strings" {
 
 data "null_data_source" "some_values" {
   inputs = {
-    first_pair = toset([
-      random_string.strings[0].id,
-      random_string.strings[1].id,
-    ])
-    second_pair = toset([
-      random_string.strings[2].id,
-      random_string.strings[3].id,
-    ])
+    first_pair = "${random_string.strings[0].id}, ${random_string.strings[1].id}"
+    second_pair = "${random_string.strings[2].id}, ${random_string.strings[3].id}"
   }
 }
 
