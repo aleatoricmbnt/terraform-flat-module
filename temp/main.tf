@@ -1,5 +1,9 @@
 resource "null_resource" "name" {
   triggers = {
-    time = timestamp()
+    custom_trigger = var.trigger
   }
+}
+
+variable "trigger" {
+  default = "kek"
 }

@@ -1,3 +1,23 @@
+# terraform-flat-module
+Configuration structure:
+```
+📂 terraform-flat-module
+├── 📄 main.tf
+├── 📄 README.md
+├── 📄 file.dummy
+└── 📂 temp
+    ├── 📄 main.tf
+    └── 📄 README.md
+```
+
+Top level `README.md` contains information about the top-level configuration.
+
+
+
+## Configuration
+
+Top-level `main.tf` has the following code:
+```
 resource "null_resource" "show_scalr_env_vars" {
   triggers = {
     time = timestamp()
@@ -47,7 +67,7 @@ resource "null_resource" "show_files_after_packing" {
 
 module "temp" {
   source = "./temp"
-  trigger = var.top-level-trigger
+  custom_trigger = var.top-level-trigger
 }
 
 variable "top-level-trigger" {
@@ -60,3 +80,6 @@ output "all_strings_from_data" {
     second_pair = null_data_source.some_values.outputs["second_pair"]
   })
 }
+```
+
+As seen in the template, child `temp` module is called inside the top one.
