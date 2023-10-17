@@ -56,7 +56,7 @@ variable "top-level-trigger" {
 
 output "all_strings_from_data" {
   value = jsonencode({
-    first_pair = null_data_source.some_values.outputs["first_pair"]
-    second_pair = null_data_source.some_values.outputs["second_pair"]
+    first_pair = data.null_data_source.some_values.outputs["first_pair"]
+    second_pair = data.null_data_source.some_values.outputs["second_pair"]
   })
 }
